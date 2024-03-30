@@ -15,7 +15,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{4CA2C3AE-DC3D-4EDF-A3AA-EED8300FCE61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventFlow.NET.Domain", "EventFlow.NET.Domain\EventFlow.NET.Domain.csproj", "{44F91FD8-5B21-4C8C-97FC-4F8F0B2ABA0D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44F91FD8-5B21-4C8C-97FC-4F8F0B2ABA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F91FD8-5B21-4C8C-97FC-4F8F0B2ABA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F91FD8-5B21-4C8C-97FC-4F8F0B2ABA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F91FD8-5B21-4C8C-97FC-4F8F0B2ABA0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -24,6 +36,7 @@ Global
 		{0456D5CC-2BC6-4579-9B8F-23FE8BB4C1A9} = {6FBF27E3-C5A7-4B7B-927C-F4A50B744B18}
 		{8AD4EF8B-2FFB-429C-905D-58777AAB020C} = {6FBF27E3-C5A7-4B7B-927C-F4A50B744B18}
 		{4CA2C3AE-DC3D-4EDF-A3AA-EED8300FCE61} = {6FBF27E3-C5A7-4B7B-927C-F4A50B744B18}
+		{44F91FD8-5B21-4C8C-97FC-4F8F0B2ABA0D} = {0456D5CC-2BC6-4579-9B8F-23FE8BB4C1A9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEAE4DB0-8312-4AA7-A71C-FCD91278D7BD}
