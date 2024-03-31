@@ -2,6 +2,7 @@
 using AutoMapper;
 using EventFlow.NET.Application.Features.Categories.Queries.GetCategoriesList;
 using EventFlow.NET.Application.Features.Categories.Queries.GetCategoriesListWithEvents;
+using EventFlow.NET.Application.Features.Events.Commands.CreateEvent;
 using EventFlow.NET.Application.Features.Events.Queries.GetEventDetail;
 using EventFlow.NET.Application.Features.Events.Queries.GetEventsList;
 using EventFlow.NET.Domain.Entities;
@@ -18,6 +19,8 @@ namespace EventFlow.NET.Application.Features.Profiles
             CreateMap<Category, CategoryDto>();
             CreateMap<Category, CategoryListVm>();
             CreateMap<Category, CategoryEventListVm>();
+
+            CreateMap<Event, CreateEventCommand>().ReverseMap();
         }
     }
 }
