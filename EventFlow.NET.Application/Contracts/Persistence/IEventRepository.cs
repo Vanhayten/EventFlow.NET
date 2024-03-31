@@ -1,5 +1,5 @@
 ﻿
-using GloboTicket.TicketManagement.Domain.Entities;
+using EventFlow.NET.Domain.Entities;
 
 namespace EventFlow.NET.Application.Contracts.Persistence
 {
