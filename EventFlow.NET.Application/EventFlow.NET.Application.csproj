@@ -15,4 +15,9 @@
     <PackageReference Include="MediatR" Version="12.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Categories\Commands\" />
+    <Folder Include="Features\Events\Commands\" />
+  </ItemGroup>
+
 </Project>

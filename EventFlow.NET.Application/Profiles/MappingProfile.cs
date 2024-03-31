@@ -6,15 +6,14 @@ using EventFlow.NET.Application.Features.Events.Queries.GetEventDetail;
 using EventFlow.NET.Application.Features.Events.Queries.GetEventsList;
 using EventFlow.NET.Domain.Entities;
 
-namespace EventFlow.NET.Application.Features.Profiles
+namespace EventFlow.NET.Application.Profiles
 {
     public class MappingProfile : Profile
     {
-        public MappingProfile() 
+        public MappingProfile()
         {
             CreateMap<Event, EventListVm>().ReverseMap();
             CreateMap<Event, EventDetailVm>().ReverseMap();
-            CreateMap<Category, CategoryDto>();
             CreateMap<Category, CategoryDto>();
             CreateMap<Category, CategoryListVm>();
             CreateMap<Category, CategoryEventListVm>();
